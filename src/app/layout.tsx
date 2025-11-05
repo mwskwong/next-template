@@ -20,7 +20,11 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = ({ children }: LayoutProps<"/">) => (
-  <html className={`${orbitron.variable} ${inter.variable}`} lang="en">
+  <html
+    className={`${orbitron.variable} ${inter.variable} dark`}
+    lang="en"
+    style={{ colorScheme: "dark" }}
+  >
     <body>
       <ChakraProvider value={system}>{children}</ChakraProvider>
     </body>
