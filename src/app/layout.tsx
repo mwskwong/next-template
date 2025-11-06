@@ -21,6 +21,8 @@ const inter = Inter({
 
 const theme = createTheme({
   primaryColor: "deepRed",
+  fontFamily: "var(--font-inter)",
+  headings: { fontFamily: "var(--font-orbitron)" },
   colors: {
     deepRed: [
       "#ffeaec",
