@@ -61,8 +61,8 @@ const nextConfig: NextConfig = {
   ],
   logging: { fetches: { fullUrl: true } },
   experimental: {
-    optimizePackageImports: ["@chakra-ui/react"],
     typedEnv: true,
+    optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
 };
 

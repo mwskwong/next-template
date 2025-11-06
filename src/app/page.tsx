@@ -1,9 +1,9 @@
-import { Button, Heading, Text } from "@chakra-ui/react";
+import { Button, Text, Title } from "@mantine/core";
 
 const Home = () => {
   return (
     <div>
-      <Heading>I&apos;m a Heading</Heading>
+      <Title>This is h1 title</Title>
       <Text>This is the text component</Text>
       <Button>Button</Button>
     </div>
