@@ -13,22 +13,22 @@
     "typegen": "next typegen"
   },
   "dependencies": {
-    "@mantine/core": "^8.3.6",
-    "@mantine/hooks": "^8.3.6",
-    "next": "^16.0.1",
+    "@mantine/core": "^8.3.8",
+    "@mantine/hooks": "^8.3.8",
+    "next": "^16.0.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-    "@eslint/compat": "^1.4.1",
+    "@eslint/compat": "^2.0.0",
     "@eslint/js": "^9.39.1",
-    "@next/bundle-analyzer": "^16.0.1",
-    "@next/eslint-plugin-next": "^16.0.1",
+    "@next/bundle-analyzer": "^16.0.3",
+    "@next/eslint-plugin-next": "^16.0.3",
     "@types/eslint-plugin-jsx-a11y": "^6.10.1",
-    "@types/node": "^22.19.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@types/node": "^22.19.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
@@ -45,6 +45,6 @@
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.19",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.3"
+    "typescript-eslint": "^8.47.0"
   }
 }
