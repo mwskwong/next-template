@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build --webpack",
-    "dev": "next dev --webpack",
+    "analyze": "next experimental-analyze",
+    "build": "next build",
+    "dev": "next dev",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "lint": "eslint",
@@ -15,24 +16,23 @@
     "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run format:fix"
   },
   "dependencies": {
-    "@mantine/core": "^8.3.9",
-    "@mantine/hooks": "^8.3.9",
-    "next": "^16.0.6",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@mantine/core": "^8.3.10",
+    "@mantine/hooks": "^8.3.10",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
     "@eslint/compat": "^2.0.0",
-    "@eslint/js": "^9.39.1",
-    "@next/bundle-analyzer": "^16.0.6",
-    "@next/eslint-plugin-next": "^16.0.6",
+    "@eslint/js": "^9.39.2",
+    "@next/eslint-plugin-next": "^16.1.1",
     "@types/eslint-plugin-jsx-a11y": "^6.10.1",
-    "@types/node": "^22.19.1",
+    "@types/node": "^24.10.4",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
@@ -44,9 +44,9 @@
     "postcss-load-config": "^6.0.1",
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
-    "prettier": "^3.7.3",
+    "prettier": "^3.7.4",
     "prettier-plugin-packagejson": "^2.5.20",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.48.0"
+    "typescript-eslint": "^8.51.0"
   }
 }

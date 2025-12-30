@@ -1,4 +1,3 @@
-import withBundleAnalyzer from "@next/bundle-analyzer";
 import { type NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -61,11 +60,10 @@ const nextConfig: NextConfig = {
   ],
   logging: { fetches: { fullUrl: true } },
   experimental: {
+    turbopackFileSystemCacheForBuild: true,
     typedEnv: true,
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
 };
 
-export default withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" })(
-  nextConfig,
-);
+export default nextConfig;
