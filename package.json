@@ -16,8 +16,8 @@
     "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run format:fix"
   },
   "dependencies": {
-    "@mantine/core": "^8.3.10",
-    "@mantine/hooks": "^8.3.10",
+    "@mantine/core": "^8.3.11",
+    "@mantine/hooks": "^8.3.11",
     "next": "^16.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
