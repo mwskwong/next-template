@@ -16,20 +16,20 @@
     "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run format:fix"
   },
   "dependencies": {
-    "@mantine/core": "^8.3.11",
-    "@mantine/hooks": "^8.3.11",
+    "@mantine/core": "^8.3.12",
+    "@mantine/hooks": "^8.3.12",
     "next": "^16.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-    "@eslint/compat": "^2.0.0",
+    "@eslint/compat": "^2.0.1",
     "@eslint/js": "^9.39.2",
     "@next/eslint-plugin-next": "^16.1.1",
     "@types/eslint-plugin-jsx-a11y": "^6.10.1",
-    "@types/node": "^24.10.4",
-    "@types/react": "^19.2.7",
+    "@types/node": "^24.10.7",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.2",
