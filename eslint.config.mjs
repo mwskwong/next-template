@@ -23,7 +23,6 @@ const eslintConfig = defineConfig(
   importPlugin.flatConfigs.recommended,
   importPlugin.flatConfigs.typescript,
   importPlugin.flatConfigs.react,
-  // @ts-expect-error -- type error, but it is actually working
   comments.recommended,
   jsxA11y.flatConfigs.recommended,
   react.configs.flat.recommended,
