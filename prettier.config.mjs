@@ -1,8 +1,6 @@
 // @ts-check
 
 /** @type {import('prettier').Config} */
-const config = {
-  plugins: ["prettier-plugin-packagejson"],
-};
+const prettierConfig = { plugins: ["prettier-plugin-packagejson"] };
 
-export default config;
+export default prettierConfig;
