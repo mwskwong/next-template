@@ -11,9 +11,11 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "start": "next start",
+    "stylelint": "stylelint --cache **/*.css",
+    "stylelint:fix": "stylelint --cache --fix **/*.css",
     "typecheck": "tsc --noEmit",
     "typegen": "next typegen",
-    "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run format:fix"
+    "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run stylelint:fix && npm run format:fix"
   },
   "dependencies": {
     "@mantine/core": "^8.3.14",
@@ -28,8 +30,8 @@
     "@eslint/js": "^9.39.2",
     "@next/eslint-plugin-next": "^16.1.6",
     "@types/eslint-plugin-jsx-a11y": "^6.10.1",
-    "@types/node": "^24.10.9",
-    "@types/react": "^19.2.10",
+    "@types/node": "^24.10.12",
+    "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.2",
@@ -46,6 +48,8 @@
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.8.1",
     "prettier-plugin-packagejson": "^3.0.0",
+    "stylelint": "^17.1.1",
+    "stylelint-config-standard": "^40.0.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.54.0"
   }
