@@ -11,8 +11,8 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "start": "next start",
-    "stylelint": "stylelint **/*.css --cache --allow-empty-input",
-    "stylelint:fix": "stylelint **/*.css --cache --allow-empty-input --fix",
+    "stylelint": "stylelint **/*.css --allow-empty-input",
+    "stylelint:fix": "stylelint **/*.css --allow-empty-input --fix",
     "typecheck": "tsc --noEmit",
     "typegen": "next typegen",
     "upgrade": "npm update && npm run typegen && npm run typecheck && npm run lint:fix && npm run stylelint:fix && npm run format:fix"
