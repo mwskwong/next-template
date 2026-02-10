@@ -11,6 +11,6 @@
     "pflannery.vscode-versionlens",
     "stylelint.vscode-stylelint",
     "vunguyentuan.vscode-css-variables",
-    "jacobcassidy.css-nesting-syntax-highlighting"
+    "vunguyentuan.vscode-postcss"
   ]
 }

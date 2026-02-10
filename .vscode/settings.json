@@ -1,4 +1,10 @@
 {
+  // CSS Variable Autocomplete
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  // CSS Variable Autocomplete with Mantine
   "cssVariables.lookupFiles": [
     "**/*.css",
     "**/*.scss",
@@ -6,12 +12,18 @@
     "**/*.less",
     "node_modules/@mantine/core/styles.css"
   ],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+
+  // Stylelint
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
+
+  // fix auto-fixable problems found by ESlint and Stylelint on save
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
-  }
+  },
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
