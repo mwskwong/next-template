@@ -10,6 +10,7 @@
     "wayou.vscode-todo-highlight",
     "pflannery.vscode-versionlens",
     "stylelint.vscode-stylelint",
-    "vunguyentuan.vscode-css-variables"
+    "vunguyentuan.vscode-css-variables",
+    "jacobcassidy.css-nesting-syntax-highlighting"
   ]
 }
