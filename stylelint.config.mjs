@@ -2,7 +2,18 @@
 
 /** @type {import("stylelint").Config} */
 const stylelintConfig = {
-  extends: ["stylelint-config-standard", "stylelint-config-recess-order"],
+  extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order"],
+  rules: {
+    "scss/no-duplicate-mixins": undefined,
+    "scss/at-mixin-pattern": undefined,
+    "scss/at-rule-no-unknown": undefined,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        ignorePseudoClasses: ["global"],
+      },
+    ],
+  },
   overrides: [
     {
       files: ["**/*.module.css"],
