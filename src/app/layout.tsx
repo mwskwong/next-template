@@ -20,23 +20,8 @@ const inter = Inter({
 });
 
 const theme = createTheme({
-  primaryColor: "deepRed",
-  fontFamily: "var(--font-inter)",
-  headings: { fontFamily: "var(--font-orbitron)" },
-  colors: {
-    deepRed: [
-      "#ffeaec",
-      "#fcd4d7",
-      "#f4a7ac",
-      "#ec777e",
-      "#e64f57",
-      "#e3353f",
-      "#e22732",
-      "#c91a25",
-      "#b41220",
-      "#9e0419",
-    ],
-  },
+  fontFamily: inter.style.fontFamily,
+  headings: { fontFamily: orbitron.style.fontFamily },
 });
 
 export const metadata: Metadata = {
@@ -45,18 +30,12 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = ({ children }: LayoutProps<"/">) => (
-  <html
-    className={`${orbitron.variable} ${inter.variable}`}
-    lang="en"
-    {...mantineHtmlProps}
-  >
+  <html lang="en" {...mantineHtmlProps}>
     <head>
-      <ColorSchemeScript forceColorScheme="dark" />
+      <ColorSchemeScript />
     </head>
     <body>
-      <MantineProvider forceColorScheme="dark" theme={theme}>
-        {children}
-      </MantineProvider>
+      <MantineProvider theme={theme}>{children}</MantineProvider>
     </body>
   </html>
 );
