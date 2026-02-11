@@ -2,6 +2,7 @@
 
 /** @type {import("stylelint").Config} */
 const stylelintConfig = {
+  // ref: https://help.mantine.dev/q/how-to-setup-stylelint#configuration
   extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order"],
   rules: {
     "scss/no-duplicate-mixins": undefined,
