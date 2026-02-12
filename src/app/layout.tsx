@@ -9,15 +9,8 @@ import {
 import { type Metadata } from "next";
 import { Inter, Orbitron } from "next/font/google";
 
-const orbitron = Orbitron({
-  variable: "--font-orbitron",
-  subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
+const orbitron = Orbitron({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 const theme = createTheme({
   fontFamily: inter.style.fontFamily,
