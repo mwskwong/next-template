@@ -61,9 +61,9 @@ const nextConfig: NextConfig = {
   logging: { fetches: { fullUrl: true } },
   experimental: {
     turbopackFileSystemCacheForBuild: true,
+    turbopackUseSystemTlsCerts: true,
     typedEnv: true,
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
-    turbopackUseSystemTlsCerts: true,
   },
 };
 
