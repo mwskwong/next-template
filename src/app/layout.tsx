@@ -7,13 +7,15 @@ import {
   mantineHtmlProps,
 } from "@mantine/core";
 import { type Metadata } from "next";
-import { Inter, Orbitron } from "next/font/google";
+import { Geist, Geist_Mono, Orbitron } from "next/font/google";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"] });
+const geistMono = Geist_Mono({ subsets: ["latin"], preload: false });
 
 const theme = createTheme({
-  fontFamily: inter.style.fontFamily,
+  fontFamily: geist.style.fontFamily,
+  fontFamilyMonospace: geistMono.style.fontFamily,
   headings: { fontFamily: orbitron.style.fontFamily },
 });
 
